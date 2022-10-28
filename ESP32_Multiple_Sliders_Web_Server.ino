@@ -52,7 +52,7 @@ JSONVar sliderValues;
 
 
 void WiFiStationConnected(WiFiEvent_t event, WiFiEventInfo_t info){
-  Serial.println("Connected to AP successfully!");
+  Serial.println("Connected to APs successfully!");
 }
 
 void WiFiGotIP(WiFiEvent_t event, WiFiEventInfo_t info){
